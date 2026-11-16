@@ -1,0 +1,1152 @@
+[
+	{
+		"_id": {
+			"$oid": "665f1a2b3c04000000000001"
+		},
+		"orderNumber": "CMD-2026-000481",
+		"userId": {
+			"$oid": "665f1a2b3c01000000000001"
+		},
+		"guestEmail": null,
+		"cartId": {
+			"$oid": "665f1a2b3c03000000000001"
+		},
+		"status": "delivered",
+		"items": [
+			{
+				"productId": {
+					"$oid": "665f1a2b3c02000000000001"
+				},
+				"sku": "TSH-BLK-M",
+				"name": "T-shirt coton bio noir - Taille M",
+				"unitPrice": 24.9,
+				"quantity": 2,
+				"lineTotal": 49.8,
+				"vatRate": 0.2
+			}
+		],
+		"shippingAddress": {
+			"fullName": "Claire Martin",
+			"street": "12 rue des Lilas",
+			"city": "Lyon",
+			"postalCode": "69003",
+			"country": "FR"
+		},
+		"billingAddress": {
+			"fullName": "Claire Martin",
+			"street": "12 rue des Lilas",
+			"city": "Lyon",
+			"postalCode": "69003",
+			"country": "FR"
+		},
+		"payment": {
+			"method": "card",
+			"transactionId": "pi_3Q9x01ABC123",
+			"status": "paid",
+			"paidAt": {
+				"$date": "2026-10-05T15:04:00.000Z"
+			}
+		},
+		"shipping": {
+			"carrier": "Colissimo",
+			"method": "standard",
+			"cost": 4.9,
+			"trackingNumber": "6A12345678901",
+			"shippedAt": {
+				"$date": "2026-10-06T03:04:00.000Z"
+			},
+			"deliveredAt": {
+				"$date": "2026-10-06T09:04:00.000Z"
+			}
+		},
+		"totals": {
+			"subtotal": 49.8,
+			"discount": 4.98,
+			"shipping": 4.9,
+			"tax": 8.29,
+			"total": 49.72,
+			"currency": "EUR"
+		},
+		"couponCode": "AUTOMNE10",
+		"statusHistory": [
+			{
+				"status": "pending",
+				"at": {
+					"$date": "2026-10-05T09:04:00.000Z"
+				}
+			},
+			{
+				"status": "paid",
+				"at": {
+					"$date": "2026-10-05T15:04:00.000Z"
+				}
+			},
+			{
+				"status": "processing",
+				"at": {
+					"$date": "2026-10-05T21:04:00.000Z"
+				}
+			},
+			{
+				"status": "shipped",
+				"at": {
+					"$date": "2026-10-06T03:04:00.000Z"
+				}
+			},
+			{
+				"status": "delivered",
+				"at": {
+					"$date": "2026-10-06T09:04:00.000Z"
+				}
+			}
+		],
+		"createdAt": {
+			"$date": "2026-10-05T09:04:00.000Z"
+		},
+		"updatedAt": {
+			"$date": "2026-10-06T09:04:00.000Z"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "665f1a2b3c04000000000002"
+		},
+		"orderNumber": "CMD-2026-000482",
+		"userId": {
+			"$oid": "665f1a2b3c01000000000002"
+		},
+		"guestEmail": null,
+		"cartId": {
+			"$oid": "665f1a2b3c03000000000002"
+		},
+		"status": "delivered",
+		"items": [
+			{
+				"productId": {
+					"$oid": "665f1a2b3c02000000000003"
+				},
+				"sku": "SNK-WHT-42",
+				"name": "Sneakers cuir blanc - Pointure 42",
+				"unitPrice": 89.9,
+				"quantity": 1,
+				"lineTotal": 89.9,
+				"vatRate": 0.2
+			},
+			{
+				"productId": {
+					"$oid": "665f1a2b3c02000000000008"
+				},
+				"sku": "BTL-ISO-GRN",
+				"name": "Bouteille isotherme inox 750 ml - Vert",
+				"unitPrice": 19.9,
+				"quantity": 1,
+				"lineTotal": 19.9,
+				"vatRate": 0.2
+			}
+		],
+		"shippingAddress": {
+			"fullName": "Thomas Bernard",
+			"street": "5 avenue Jean Jaurès",
+			"city": "Paris",
+			"postalCode": "75019",
+			"country": "FR"
+		},
+		"billingAddress": {
+			"fullName": "Thomas Bernard",
+			"street": "5 avenue Jean Jaurès",
+			"city": "Paris",
+			"postalCode": "75019",
+			"country": "FR"
+		},
+		"payment": {
+			"method": "paypal",
+			"transactionId": "PAYID-100274",
+			"status": "paid",
+			"paidAt": {
+				"$date": "2026-10-08T20:20:00.000Z"
+			}
+		},
+		"shipping": {
+			"carrier": "Chronopost",
+			"method": "express",
+			"cost": 9.9,
+			"trackingNumber": "6A12345678902",
+			"shippedAt": {
+				"$date": "2026-10-09T08:20:00.000Z"
+			},
+			"deliveredAt": {
+				"$date": "2026-10-09T14:20:00.000Z"
+			}
+		},
+		"totals": {
+			"subtotal": 109.8,
+			"discount": 0,
+			"shipping": 9.9,
+			"tax": 19.95,
+			"total": 119.7,
+			"currency": "EUR"
+		},
+		"couponCode": null,
+		"statusHistory": [
+			{
+				"status": "pending",
+				"at": {
+					"$date": "2026-10-08T14:20:00.000Z"
+				}
+			},
+			{
+				"status": "paid",
+				"at": {
+					"$date": "2026-10-08T20:20:00.000Z"
+				}
+			},
+			{
+				"status": "processing",
+				"at": {
+					"$date": "2026-10-09T02:20:00.000Z"
+				}
+			},
+			{
+				"status": "shipped",
+				"at": {
+					"$date": "2026-10-09T08:20:00.000Z"
+				}
+			},
+			{
+				"status": "delivered",
+				"at": {
+					"$date": "2026-10-09T14:20:00.000Z"
+				}
+			}
+		],
+		"createdAt": {
+			"$date": "2026-10-08T14:20:00.000Z"
+		},
+		"updatedAt": {
+			"$date": "2026-10-09T14:20:00.000Z"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "665f1a2b3c04000000000003"
+		},
+		"orderNumber": "CMD-2026-000483",
+		"userId": {
+			"$oid": "665f1a2b3c01000000000003"
+		},
+		"guestEmail": null,
+		"cartId": {
+			"$oid": "665f1a2b3c03000000000003"
+		},
+		"status": "delivered",
+		"items": [
+			{
+				"productId": {
+					"$oid": "665f1a2b3c02000000000005"
+				},
+				"sku": "AUD-HDP-BLK",
+				"name": "Casque Bluetooth à réduction de bruit - Noir",
+				"unitPrice": 129,
+				"quantity": 1,
+				"lineTotal": 129,
+				"vatRate": 0.2
+			}
+		],
+		"shippingAddress": {
+			"fullName": "Sophie Dubois",
+			"street": "27 cours Mirabeau",
+			"city": "Aix-en-Provence",
+			"postalCode": "13100",
+			"country": "FR"
+		},
+		"billingAddress": {
+			"fullName": "Sophie Dubois",
+			"street": "27 cours Mirabeau",
+			"city": "Aix-en-Provence",
+			"postalCode": "13100",
+			"country": "FR"
+		},
+		"payment": {
+			"method": "card",
+			"transactionId": "pi_3Q9x03ABC123",
+			"status": "paid",
+			"paidAt": {
+				"$date": "2026-10-11T17:45:00.000Z"
+			}
+		},
+		"shipping": {
+			"carrier": "Colissimo",
+			"method": "standard",
+			"cost": 0,
+			"trackingNumber": "6A12345678903",
+			"shippedAt": {
+				"$date": "2026-10-12T05:45:00.000Z"
+			},
+			"deliveredAt": {
+				"$date": "2026-10-12T11:45:00.000Z"
+			}
+		},
+		"totals": {
+			"subtotal": 129,
+			"discount": 12.9,
+			"shipping": 0,
+			"tax": 19.35,
+			"total": 116.1,
+			"currency": "EUR"
+		},
+		"couponCode": "AUTOMNE10",
+		"statusHistory": [
+			{
+				"status": "pending",
+				"at": {
+					"$date": "2026-10-11T11:45:00.000Z"
+				}
+			},
+			{
+				"status": "paid",
+				"at": {
+					"$date": "2026-10-11T17:45:00.000Z"
+				}
+			},
+			{
+				"status": "processing",
+				"at": {
+					"$date": "2026-10-11T23:45:00.000Z"
+				}
+			},
+			{
+				"status": "shipped",
+				"at": {
+					"$date": "2026-10-12T05:45:00.000Z"
+				}
+			},
+			{
+				"status": "delivered",
+				"at": {
+					"$date": "2026-10-12T11:45:00.000Z"
+				}
+			}
+		],
+		"createdAt": {
+			"$date": "2026-10-11T11:45:00.000Z"
+		},
+		"updatedAt": {
+			"$date": "2026-10-12T11:45:00.000Z"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "665f1a2b3c04000000000004"
+		},
+		"orderNumber": "CMD-2026-000484",
+		"userId": {
+			"$oid": "665f1a2b3c01000000000004"
+		},
+		"guestEmail": null,
+		"cartId": {
+			"$oid": "665f1a2b3c03000000000004"
+		},
+		"status": "shipped",
+		"items": [
+			{
+				"productId": {
+					"$oid": "665f1a2b3c02000000000002"
+				},
+				"sku": "JEA-SLM-40",
+				"name": "Jean slim brut indigo - Taille 40",
+				"unitPrice": 59.9,
+				"quantity": 1,
+				"lineTotal": 59.9,
+				"vatRate": 0.2
+			},
+			{
+				"productId": {
+					"$oid": "665f1a2b3c02000000000001"
+				},
+				"sku": "TSH-BLK-L",
+				"name": "T-shirt coton bio noir - Taille L",
+				"unitPrice": 24.9,
+				"quantity": 1,
+				"lineTotal": 24.9,
+				"vatRate": 0.2
+			}
+		],
+		"shippingAddress": {
+			"fullName": "Lucas Petit",
+			"street": "8 rue Sainte-Catherine",
+			"city": "Bordeaux",
+			"postalCode": "33000",
+			"country": "FR"
+		},
+		"billingAddress": {
+			"fullName": "Lucas Petit",
+			"street": "8 rue Sainte-Catherine",
+			"city": "Bordeaux",
+			"postalCode": "33000",
+			"country": "FR"
+		},
+		"payment": {
+			"method": "card",
+			"transactionId": "pi_3Q9x04ABC123",
+			"status": "paid",
+			"paidAt": {
+				"$date": "2026-10-27T23:30:00.000Z"
+			}
+		},
+		"shipping": {
+			"carrier": "Mondial Relay",
+			"method": "relay",
+			"cost": 3.9,
+			"trackingNumber": "6A12345678904",
+			"shippedAt": {
+				"$date": "2026-10-28T11:30:00.000Z"
+			},
+			"deliveredAt": null
+		},
+		"totals": {
+			"subtotal": 84.8,
+			"discount": 0,
+			"shipping": 3.9,
+			"tax": 14.78,
+			"total": 88.7,
+			"currency": "EUR"
+		},
+		"couponCode": null,
+		"statusHistory": [
+			{
+				"status": "pending",
+				"at": {
+					"$date": "2026-10-27T17:30:00.000Z"
+				}
+			},
+			{
+				"status": "paid",
+				"at": {
+					"$date": "2026-10-27T23:30:00.000Z"
+				}
+			},
+			{
+				"status": "processing",
+				"at": {
+					"$date": "2026-10-28T05:30:00.000Z"
+				}
+			},
+			{
+				"status": "shipped",
+				"at": {
+					"$date": "2026-10-28T11:30:00.000Z"
+				}
+			}
+		],
+		"createdAt": {
+			"$date": "2026-10-27T17:30:00.000Z"
+		},
+		"updatedAt": {
+			"$date": "2026-10-28T11:30:00.000Z"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "665f1a2b3c04000000000005"
+		},
+		"orderNumber": "CMD-2026-000485",
+		"userId": {
+			"$oid": "665f1a2b3c01000000000005"
+		},
+		"guestEmail": null,
+		"cartId": {
+			"$oid": "665f1a2b3c03000000000005"
+		},
+		"status": "shipped",
+		"items": [
+			{
+				"productId": {
+					"$oid": "665f1a2b3c02000000000004"
+				},
+				"sku": "PUL-MER-L-NVY",
+				"name": "Pull col rond laine mérinos - Bleu marine - L",
+				"unitPrice": 79,
+				"quantity": 1,
+				"lineTotal": 79,
+				"vatRate": 0.2
+			}
+		],
+		"shippingAddress": {
+			"fullName": "Emma Robert",
+			"street": "14 place Stanislas",
+			"city": "Nancy",
+			"postalCode": "54000",
+			"country": "FR"
+		},
+		"billingAddress": {
+			"fullName": "Emma Robert",
+			"street": "14 place Stanislas",
+			"city": "Nancy",
+			"postalCode": "54000",
+			"country": "FR"
+		},
+		"payment": {
+			"method": "card",
+			"transactionId": "pi_3Q9x05ABC123",
+			"status": "paid",
+			"paidAt": {
+				"$date": "2026-10-28T16:10:00.000Z"
+			}
+		},
+		"shipping": {
+			"carrier": "Colissimo",
+			"method": "standard",
+			"cost": 0,
+			"trackingNumber": "6A12345678905",
+			"shippedAt": {
+				"$date": "2026-10-29T04:10:00.000Z"
+			},
+			"deliveredAt": null
+		},
+		"totals": {
+			"subtotal": 79,
+			"discount": 5,
+			"shipping": 0,
+			"tax": 12.33,
+			"total": 74,
+			"currency": "EUR"
+		},
+		"couponCode": "BIENVENUE5",
+		"statusHistory": [
+			{
+				"status": "pending",
+				"at": {
+					"$date": "2026-10-28T10:10:00.000Z"
+				}
+			},
+			{
+				"status": "paid",
+				"at": {
+					"$date": "2026-10-28T16:10:00.000Z"
+				}
+			},
+			{
+				"status": "processing",
+				"at": {
+					"$date": "2026-10-28T22:10:00.000Z"
+				}
+			},
+			{
+				"status": "shipped",
+				"at": {
+					"$date": "2026-10-29T04:10:00.000Z"
+				}
+			}
+		],
+		"createdAt": {
+			"$date": "2026-10-28T10:10:00.000Z"
+		},
+		"updatedAt": {
+			"$date": "2026-10-29T04:10:00.000Z"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "665f1a2b3c04000000000006"
+		},
+		"orderNumber": "CMD-2026-000486",
+		"userId": {
+			"$oid": "665f1a2b3c01000000000006"
+		},
+		"guestEmail": null,
+		"cartId": {
+			"$oid": "665f1a2b3c03000000000006"
+		},
+		"status": "processing",
+		"items": [
+			{
+				"productId": {
+					"$oid": "665f1a2b3c02000000000006"
+				},
+				"sku": "AUD-SPK-BLU",
+				"name": "Enceinte portable étanche - Bleu",
+				"unitPrice": 59.99,
+				"quantity": 2,
+				"lineTotal": 119.98,
+				"vatRate": 0.2
+			},
+			{
+				"productId": {
+					"$oid": "665f1a2b3c02000000000007"
+				},
+				"sku": "BAG-URB-BLK",
+				"name": "Sac à dos urbain 20 L - Noir",
+				"unitPrice": 49.9,
+				"quantity": 1,
+				"lineTotal": 49.9,
+				"vatRate": 0.2
+			}
+		],
+		"shippingAddress": {
+			"fullName": "Hugo Richard",
+			"street": "3 quai de la Fosse",
+			"city": "Nantes",
+			"postalCode": "44000",
+			"country": "FR"
+		},
+		"billingAddress": {
+			"fullName": "Hugo Richard",
+			"street": "3 quai de la Fosse",
+			"city": "Nantes",
+			"postalCode": "44000",
+			"country": "FR"
+		},
+		"payment": {
+			"method": "paypal",
+			"transactionId": "PAYID-100822",
+			"status": "paid",
+			"paidAt": {
+				"$date": "2026-10-30T14:55:00.000Z"
+			}
+		},
+		"shipping": {
+			"carrier": "Colissimo",
+			"method": "standard",
+			"cost": 0,
+			"trackingNumber": null,
+			"shippedAt": null,
+			"deliveredAt": null
+		},
+		"totals": {
+			"subtotal": 169.88,
+			"discount": 0,
+			"shipping": 0,
+			"tax": 28.31,
+			"total": 169.88,
+			"currency": "EUR"
+		},
+		"couponCode": null,
+		"statusHistory": [
+			{
+				"status": "pending",
+				"at": {
+					"$date": "2026-10-30T08:55:00.000Z"
+				}
+			},
+			{
+				"status": "paid",
+				"at": {
+					"$date": "2026-10-30T14:55:00.000Z"
+				}
+			},
+			{
+				"status": "processing",
+				"at": {
+					"$date": "2026-10-30T20:55:00.000Z"
+				}
+			}
+		],
+		"createdAt": {
+			"$date": "2026-10-30T08:55:00.000Z"
+		},
+		"updatedAt": {
+			"$date": "2026-10-30T20:55:00.000Z"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "665f1a2b3c04000000000007"
+		},
+		"orderNumber": "CMD-2026-000487",
+		"userId": {
+			"$oid": "665f1a2b3c01000000000007"
+		},
+		"guestEmail": null,
+		"cartId": {
+			"$oid": "665f1a2b3c03000000000007"
+		},
+		"status": "paid",
+		"items": [
+			{
+				"productId": {
+					"$oid": "665f1a2b3c02000000000009"
+				},
+				"sku": "WTC-SMT-BLK",
+				"name": "Montre connectée sport GPS - Noir",
+				"unitPrice": 199,
+				"quantity": 1,
+				"lineTotal": 199,
+				"vatRate": 0.2
+			}
+		],
+		"shippingAddress": {
+			"fullName": "Camille Moreau",
+			"street": "41 rue Nationale",
+			"city": "Lille",
+			"postalCode": "59800",
+			"country": "FR"
+		},
+		"billingAddress": {
+			"fullName": "Camille Moreau",
+			"street": "41 rue Nationale",
+			"city": "Lille",
+			"postalCode": "59800",
+			"country": "FR"
+		},
+		"payment": {
+			"method": "card",
+			"transactionId": "pi_3Q9x07ABC123",
+			"status": "paid",
+			"paidAt": {
+				"$date": "2026-11-01T01:12:00.000Z"
+			}
+		},
+		"shipping": {
+			"carrier": "Chronopost",
+			"method": "express",
+			"cost": 9.9,
+			"trackingNumber": null,
+			"shippedAt": null,
+			"deliveredAt": null
+		},
+		"totals": {
+			"subtotal": 199,
+			"discount": 19.9,
+			"shipping": 9.9,
+			"tax": 31.5,
+			"total": 189,
+			"currency": "EUR"
+		},
+		"couponCode": "AUTOMNE10",
+		"statusHistory": [
+			{
+				"status": "pending",
+				"at": {
+					"$date": "2026-10-31T19:12:00.000Z"
+				}
+			},
+			{
+				"status": "paid",
+				"at": {
+					"$date": "2026-11-01T01:12:00.000Z"
+				}
+			}
+		],
+		"createdAt": {
+			"$date": "2026-10-31T19:12:00.000Z"
+		},
+		"updatedAt": {
+			"$date": "2026-11-01T01:12:00.000Z"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "665f1a2b3c04000000000008"
+		},
+		"orderNumber": "CMD-2026-000488",
+		"userId": {
+			"$oid": "665f1a2b3c01000000000008"
+		},
+		"guestEmail": null,
+		"cartId": {
+			"$oid": "665f1a2b3c03000000000008"
+		},
+		"status": "pending",
+		"items": [
+			{
+				"productId": {
+					"$oid": "665f1a2b3c02000000000010"
+				},
+				"sku": "LMP-LED-WHT",
+				"name": "Lampe de bureau LED dimmable - Blanc",
+				"unitPrice": 34.5,
+				"quantity": 1,
+				"lineTotal": 34.5,
+				"vatRate": 0.2
+			},
+			{
+				"productId": {
+					"$oid": "665f1a2b3c02000000000008"
+				},
+				"sku": "BTL-ISO-WHT",
+				"name": "Bouteille isotherme inox 750 ml - Blanc",
+				"unitPrice": 19.9,
+				"quantity": 2,
+				"lineTotal": 39.8,
+				"vatRate": 0.2
+			}
+		],
+		"shippingAddress": {
+			"fullName": "Nathan Simon",
+			"street": "9 rue du Bât-d'Argent",
+			"city": "Lyon",
+			"postalCode": "69001",
+			"country": "FR"
+		},
+		"billingAddress": {
+			"fullName": "Nathan Simon",
+			"street": "9 rue du Bât-d'Argent",
+			"city": "Lyon",
+			"postalCode": "69001",
+			"country": "FR"
+		},
+		"payment": {
+			"method": "card",
+			"transactionId": "pi_3Q9x08ABC123",
+			"status": "pending",
+			"paidAt": null
+		},
+		"shipping": {
+			"carrier": "Colissimo",
+			"method": "standard",
+			"cost": 0,
+			"trackingNumber": null,
+			"shippedAt": null,
+			"deliveredAt": null
+		},
+		"totals": {
+			"subtotal": 74.3,
+			"discount": 0,
+			"shipping": 0,
+			"tax": 12.38,
+			"total": 74.3,
+			"currency": "EUR"
+		},
+		"couponCode": null,
+		"statusHistory": [
+			{
+				"status": "pending",
+				"at": {
+					"$date": "2026-11-01T09:00:00.000Z"
+				}
+			}
+		],
+		"createdAt": {
+			"$date": "2026-11-01T09:00:00.000Z"
+		},
+		"updatedAt": {
+			"$date": "2026-11-01T09:00:00.000Z"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "665f1a2b3c04000000000009"
+		},
+		"orderNumber": "CMD-2026-000489",
+		"userId": {
+			"$oid": "665f1a2b3c01000000000009"
+		},
+		"guestEmail": null,
+		"cartId": {
+			"$oid": "665f1a2b3c03000000000009"
+		},
+		"status": "cancelled",
+		"items": [
+			{
+				"productId": {
+					"$oid": "665f1a2b3c02000000000003"
+				},
+				"sku": "SNK-WHT-44",
+				"name": "Sneakers cuir blanc - Pointure 44",
+				"unitPrice": 89.9,
+				"quantity": 1,
+				"lineTotal": 89.9,
+				"vatRate": 0.2
+			}
+		],
+		"shippingAddress": {
+			"fullName": "Léa Laurent",
+			"street": "22 boulevard Gambetta",
+			"city": "Toulouse",
+			"postalCode": "31000",
+			"country": "FR"
+		},
+		"billingAddress": {
+			"fullName": "Léa Laurent",
+			"street": "22 boulevard Gambetta",
+			"city": "Toulouse",
+			"postalCode": "31000",
+			"country": "FR"
+		},
+		"payment": {
+			"method": "card",
+			"transactionId": "pi_3Q9x09ABC123",
+			"status": "failed",
+			"paidAt": null
+		},
+		"shipping": {
+			"carrier": "Colissimo",
+			"method": "standard",
+			"cost": 0,
+			"trackingNumber": null,
+			"shippedAt": null,
+			"deliveredAt": null
+		},
+		"totals": {
+			"subtotal": 89.9,
+			"discount": 0,
+			"shipping": 0,
+			"tax": 14.98,
+			"total": 89.9,
+			"currency": "EUR"
+		},
+		"couponCode": null,
+		"statusHistory": [
+			{
+				"status": "pending",
+				"at": {
+					"$date": "2026-10-15T13:00:00.000Z"
+				}
+			},
+			{
+				"status": "cancelled",
+				"at": {
+					"$date": "2026-10-15T19:00:00.000Z"
+				}
+			}
+		],
+		"createdAt": {
+			"$date": "2026-10-15T13:00:00.000Z"
+		},
+		"updatedAt": {
+			"$date": "2026-10-15T19:00:00.000Z"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "665f1a2b3c04000000000010"
+		},
+		"orderNumber": "CMD-2026-000490",
+		"userId": {
+			"$oid": "665f1a2b3c01000000000010"
+		},
+		"guestEmail": null,
+		"cartId": {
+			"$oid": "665f1a2b3c03000000000010"
+		},
+		"status": "refunded",
+		"items": [
+			{
+				"productId": {
+					"$oid": "665f1a2b3c02000000000005"
+				},
+				"sku": "AUD-HDP-SLV",
+				"name": "Casque Bluetooth à réduction de bruit - Argent",
+				"unitPrice": 129,
+				"quantity": 1,
+				"lineTotal": 129,
+				"vatRate": 0.2
+			},
+			{
+				"productId": {
+					"$oid": "665f1a2b3c02000000000006"
+				},
+				"sku": "AUD-SPK-RED",
+				"name": "Enceinte portable étanche - Rouge",
+				"unitPrice": 59.99,
+				"quantity": 1,
+				"lineTotal": 59.99,
+				"vatRate": 0.2
+			}
+		],
+		"shippingAddress": {
+			"fullName": "Antoine Lefebvre",
+			"street": "16 rue de la République",
+			"city": "Strasbourg",
+			"postalCode": "67000",
+			"country": "FR"
+		},
+		"billingAddress": {
+			"fullName": "Antoine Lefebvre",
+			"street": "16 rue de la République",
+			"city": "Strasbourg",
+			"postalCode": "67000",
+			"country": "FR"
+		},
+		"payment": {
+			"method": "card",
+			"transactionId": "pi_3Q9x10ABC123",
+			"status": "refunded",
+			"paidAt": {
+				"$date": "2026-10-18T22:40:00.000Z"
+			}
+		},
+		"shipping": {
+			"carrier": "Colissimo",
+			"method": "standard",
+			"cost": 0,
+			"trackingNumber": "6A12345678910",
+			"shippedAt": {
+				"$date": "2026-10-19T10:40:00.000Z"
+			},
+			"deliveredAt": {
+				"$date": "2026-10-19T16:40:00.000Z"
+			}
+		},
+		"totals": {
+			"subtotal": 188.99,
+			"discount": 5,
+			"shipping": 0,
+			"tax": 30.67,
+			"total": 183.99,
+			"currency": "EUR"
+		},
+		"couponCode": "BIENVENUE5",
+		"statusHistory": [
+			{
+				"status": "pending",
+				"at": {
+					"$date": "2026-10-18T16:40:00.000Z"
+				}
+			},
+			{
+				"status": "paid",
+				"at": {
+					"$date": "2026-10-18T22:40:00.000Z"
+				}
+			},
+			{
+				"status": "processing",
+				"at": {
+					"$date": "2026-10-19T04:40:00.000Z"
+				}
+			},
+			{
+				"status": "shipped",
+				"at": {
+					"$date": "2026-10-19T10:40:00.000Z"
+				}
+			},
+			{
+				"status": "delivered",
+				"at": {
+					"$date": "2026-10-19T16:40:00.000Z"
+				}
+			},
+			{
+				"status": "refunded",
+				"at": {
+					"$date": "2026-10-19T22:40:00.000Z"
+				}
+			}
+		],
+		"createdAt": {
+			"$date": "2026-10-18T16:40:00.000Z"
+		},
+		"updatedAt": {
+			"$date": "2026-10-19T22:40:00.000Z"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "665f1a2b3c04000000000011"
+		},
+		"orderNumber": "CMD-2026-000491",
+		"userId": null,
+		"guestEmail": "visiteur.invite@example.com",
+		"cartId": {
+			"$oid": "665f1a2b3c03000000000011"
+		},
+		"status": "delivered",
+		"items": [
+			{
+				"productId": {
+					"$oid": "665f1a2b3c02000000000001"
+				},
+				"sku": "TSH-BLK-S",
+				"name": "T-shirt coton bio noir - Taille S",
+				"unitPrice": 24.9,
+				"quantity": 1,
+				"lineTotal": 24.9,
+				"vatRate": 0.2
+			},
+			{
+				"productId": {
+					"$oid": "665f1a2b3c02000000000007"
+				},
+				"sku": "BAG-URB-BLK",
+				"name": "Sac à dos urbain 20 L - Noir",
+				"unitPrice": 49.9,
+				"quantity": 1,
+				"lineTotal": 49.9,
+				"vatRate": 0.2
+			}
+		],
+		"shippingAddress": {
+			"fullName": "Julien Garnier",
+			"street": "7 rue Victor Hugo",
+			"city": "Rennes",
+			"postalCode": "35000",
+			"country": "FR"
+		},
+		"billingAddress": {
+			"fullName": "Julien Garnier",
+			"street": "7 rue Victor Hugo",
+			"city": "Rennes",
+			"postalCode": "35000",
+			"country": "FR"
+		},
+		"payment": {
+			"method": "card",
+			"transactionId": "pi_3Q9x11ABC123",
+			"status": "paid",
+			"paidAt": {
+				"$date": "2026-10-21T02:05:00.000Z"
+			}
+		},
+		"shipping": {
+			"carrier": "Mondial Relay",
+			"method": "relay",
+			"cost": 3.9,
+			"trackingNumber": "6A12345678911",
+			"shippedAt": {
+				"$date": "2026-10-21T14:05:00.000Z"
+			},
+			"deliveredAt": {
+				"$date": "2026-10-21T20:05:00.000Z"
+			}
+		},
+		"totals": {
+			"subtotal": 74.8,
+			"discount": 0,
+			"shipping": 3.9,
+			"tax": 13.12,
+			"total": 78.7,
+			"currency": "EUR"
+		},
+		"couponCode": null,
+		"statusHistory": [
+			{
+				"status": "pending",
+				"at": {
+					"$date": "2026-10-20T20:05:00.000Z"
+				}
+			},
+			{
+				"status": "paid",
+				"at": {
+					"$date": "2026-10-21T02:05:00.000Z"
+				}
+			},
+			{
+				"status": "processing",
+				"at": {
+					"$date": "2026-10-21T08:05:00.000Z"
+				}
+			},
+			{
+				"status": "shipped",
+				"at": {
+					"$date": "2026-10-21T14:05:00.000Z"
+				}
+			},
+			{
+				"status": "delivered",
+				"at": {
+					"$date": "2026-10-21T20:05:00.000Z"
+				}
+			}
+		],
+		"createdAt": {
+			"$date": "2026-10-20T20:05:00.000Z"
+		},
+		"updatedAt": {
+			"$date": "2026-10-21T20:05:00.000Z"
+		}
+	}
+]

@@ -1,0 +1,26 @@
+{
+  "name": "cdiscam",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "shared",
+    "api",
+    "web"
+  ],
+  "scripts": {
+    "dev": "concurrently -n api,web -c blue,green \"npm run dev -w @cdiscam/api\" \"npm run dev -w @cdiscam/web\"",
+    "dev:api": "npm run dev -w @cdiscam/api",
+    "dev:web": "npm run dev -w @cdiscam/web",
+    "db:up": "docker compose up -d",
+    "db:down": "docker compose down",
+    "test": "npm run test -w @cdiscam/api",
+    "typecheck": "npm run typecheck -w @cdiscam/shared && npm run typecheck -w @cdiscam/api && npm run typecheck -w @cdiscam/web"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.11.4"
+  }
+}

@@ -1,0 +1,409 @@
+[
+  {
+    "_id": {
+      "$oid": "665f1a2b3c01000000000001"
+    },
+    "email": "claire.martin@example.com",
+    "passwordHash": "$2b$12$abcdefghijklmnopqrstuuABCDEFGHIJKLMNOPQRSTUVWXYZ012345",
+    "firstName": "Claire",
+    "lastName": "Martin",
+    "phone": "+33612345601",
+    "role": "customer",
+    "addresses": [
+      {
+        "label": "Domicile",
+        "street": "12 rue des Lilas",
+        "city": "Lyon",
+        "postalCode": "69003",
+        "country": "FR",
+        "isDefaultShipping": true,
+        "isDefaultBilling": true
+      }
+    ],
+    "preferences": {
+      "newsletter": true,
+      "language": "fr",
+      "currency": "EUR"
+    },
+    "isActive": true,
+    "emailVerified": true,
+    "lastLoginAt": {
+      "$date": "2026-10-21T18:11:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-02-11T09:15:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-21T18:11:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665f1a2b3c01000000000002"
+    },
+    "email": "thomas.bernard@example.com",
+    "passwordHash": "$2b$12$abcdefghijklmnopqrstuuABCDEFGHIJKLMNOPQRSTUVWXYZ012345",
+    "firstName": "Thomas",
+    "lastName": "Bernard",
+    "phone": "+33612345602",
+    "role": "customer",
+    "addresses": [
+      {
+        "label": "Domicile",
+        "street": "5 avenue Jean Jaurès",
+        "city": "Paris",
+        "postalCode": "75019",
+        "country": "FR",
+        "isDefaultShipping": true,
+        "isDefaultBilling": true
+      }
+    ],
+    "preferences": {
+      "newsletter": false,
+      "language": "fr",
+      "currency": "EUR"
+    },
+    "isActive": true,
+    "emailVerified": true,
+    "lastLoginAt": {
+      "$date": "2026-10-22T18:12:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-03-12T09:15:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T18:12:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665f1a2b3c01000000000003"
+    },
+    "email": "sophie.dubois@example.com",
+    "passwordHash": "$2b$12$abcdefghijklmnopqrstuuABCDEFGHIJKLMNOPQRSTUVWXYZ012345",
+    "firstName": "Sophie",
+    "lastName": "Dubois",
+    "phone": "+33612345603",
+    "role": "customer",
+    "addresses": [
+      {
+        "label": "Domicile",
+        "street": "27 cours Mirabeau",
+        "city": "Aix-en-Provence",
+        "postalCode": "13100",
+        "country": "FR",
+        "isDefaultShipping": true,
+        "isDefaultBilling": true
+      },
+      {
+        "label": "Bureau",
+        "street": "100 avenue des Champs",
+        "city": "Aix-en-Provence",
+        "postalCode": "13100",
+        "country": "FR",
+        "isDefaultShipping": false,
+        "isDefaultBilling": false
+      }
+    ],
+    "preferences": {
+      "newsletter": true,
+      "language": "fr",
+      "currency": "EUR"
+    },
+    "isActive": true,
+    "emailVerified": true,
+    "lastLoginAt": {
+      "$date": "2026-10-23T18:13:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-04-13T09:15:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-23T18:13:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665f1a2b3c01000000000004"
+    },
+    "email": "lucas.petit@example.com",
+    "passwordHash": "$2b$12$abcdefghijklmnopqrstuuABCDEFGHIJKLMNOPQRSTUVWXYZ012345",
+    "firstName": "Lucas",
+    "lastName": "Petit",
+    "phone": "+33612345604",
+    "role": "customer",
+    "addresses": [
+      {
+        "label": "Domicile",
+        "street": "8 rue Sainte-Catherine",
+        "city": "Bordeaux",
+        "postalCode": "33000",
+        "country": "FR",
+        "isDefaultShipping": true,
+        "isDefaultBilling": true
+      }
+    ],
+    "preferences": {
+      "newsletter": false,
+      "language": "fr",
+      "currency": "EUR"
+    },
+    "isActive": true,
+    "emailVerified": true,
+    "lastLoginAt": {
+      "$date": "2026-10-24T18:14:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-05-14T09:15:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-24T18:14:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665f1a2b3c01000000000005"
+    },
+    "email": "emma.robert@example.com",
+    "passwordHash": "$2b$12$abcdefghijklmnopqrstuuABCDEFGHIJKLMNOPQRSTUVWXYZ012345",
+    "firstName": "Emma",
+    "lastName": "Robert",
+    "phone": "+33612345605",
+    "role": "customer",
+    "addresses": [
+      {
+        "label": "Domicile",
+        "street": "14 place Stanislas",
+        "city": "Nancy",
+        "postalCode": "54000",
+        "country": "FR",
+        "isDefaultShipping": true,
+        "isDefaultBilling": true
+      }
+    ],
+    "preferences": {
+      "newsletter": true,
+      "language": "fr",
+      "currency": "EUR"
+    },
+    "isActive": true,
+    "emailVerified": true,
+    "lastLoginAt": {
+      "$date": "2026-10-25T18:15:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-06-15T09:15:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-25T18:15:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665f1a2b3c01000000000006"
+    },
+    "email": "hugo.richard@example.com",
+    "passwordHash": "$2b$12$abcdefghijklmnopqrstuuABCDEFGHIJKLMNOPQRSTUVWXYZ012345",
+    "firstName": "Hugo",
+    "lastName": "Richard",
+    "phone": "+33612345606",
+    "role": "customer",
+    "addresses": [
+      {
+        "label": "Domicile",
+        "street": "3 quai de la Fosse",
+        "city": "Nantes",
+        "postalCode": "44000",
+        "country": "FR",
+        "isDefaultShipping": true,
+        "isDefaultBilling": true
+      },
+      {
+        "label": "Bureau",
+        "street": "100 avenue des Champs",
+        "city": "Nantes",
+        "postalCode": "44000",
+        "country": "FR",
+        "isDefaultShipping": false,
+        "isDefaultBilling": false
+      }
+    ],
+    "preferences": {
+      "newsletter": false,
+      "language": "fr",
+      "currency": "EUR"
+    },
+    "isActive": true,
+    "emailVerified": true,
+    "lastLoginAt": {
+      "$date": "2026-10-26T18:16:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-07-16T09:15:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-26T18:16:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665f1a2b3c01000000000007"
+    },
+    "email": "camille.moreau@example.com",
+    "passwordHash": "$2b$12$abcdefghijklmnopqrstuuABCDEFGHIJKLMNOPQRSTUVWXYZ012345",
+    "firstName": "Camille",
+    "lastName": "Moreau",
+    "phone": "+33612345607",
+    "role": "customer",
+    "addresses": [
+      {
+        "label": "Domicile",
+        "street": "41 rue Nationale",
+        "city": "Lille",
+        "postalCode": "59800",
+        "country": "FR",
+        "isDefaultShipping": true,
+        "isDefaultBilling": true
+      }
+    ],
+    "preferences": {
+      "newsletter": true,
+      "language": "fr",
+      "currency": "EUR"
+    },
+    "isActive": true,
+    "emailVerified": false,
+    "lastLoginAt": {
+      "$date": "2026-10-27T18:17:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-08-17T09:15:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-27T18:17:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665f1a2b3c01000000000008"
+    },
+    "email": "nathan.simon@example.com",
+    "passwordHash": "$2b$12$abcdefghijklmnopqrstuuABCDEFGHIJKLMNOPQRSTUVWXYZ012345",
+    "firstName": "Nathan",
+    "lastName": "Simon",
+    "phone": "+33612345608",
+    "role": "customer",
+    "addresses": [
+      {
+        "label": "Domicile",
+        "street": "9 rue du Bât-d'Argent",
+        "city": "Lyon",
+        "postalCode": "69001",
+        "country": "FR",
+        "isDefaultShipping": true,
+        "isDefaultBilling": true
+      }
+    ],
+    "preferences": {
+      "newsletter": false,
+      "language": "fr",
+      "currency": "EUR"
+    },
+    "isActive": true,
+    "emailVerified": true,
+    "lastLoginAt": {
+      "$date": "2026-10-28T18:18:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-09-18T09:15:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-28T18:18:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665f1a2b3c01000000000009"
+    },
+    "email": "lea.laurent@example.com",
+    "passwordHash": "$2b$12$abcdefghijklmnopqrstuuABCDEFGHIJKLMNOPQRSTUVWXYZ012345",
+    "firstName": "Léa",
+    "lastName": "Laurent",
+    "phone": "+33612345609",
+    "role": "customer",
+    "addresses": [
+      {
+        "label": "Domicile",
+        "street": "22 boulevard Gambetta",
+        "city": "Toulouse",
+        "postalCode": "31000",
+        "country": "FR",
+        "isDefaultShipping": true,
+        "isDefaultBilling": true
+      },
+      {
+        "label": "Bureau",
+        "street": "100 avenue des Champs",
+        "city": "Toulouse",
+        "postalCode": "31000",
+        "country": "FR",
+        "isDefaultShipping": false,
+        "isDefaultBilling": false
+      }
+    ],
+    "preferences": {
+      "newsletter": true,
+      "language": "fr",
+      "currency": "EUR"
+    },
+    "isActive": true,
+    "emailVerified": true,
+    "lastLoginAt": {
+      "$date": "2026-10-29T18:19:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-01-10T09:15:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-29T18:19:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665f1a2b3c01000000000010"
+    },
+    "email": "antoine.lefebvre@example.com",
+    "passwordHash": "$2b$12$abcdefghijklmnopqrstuuABCDEFGHIJKLMNOPQRSTUVWXYZ012345",
+    "firstName": "Antoine",
+    "lastName": "Lefebvre",
+    "phone": "+33612345610",
+    "role": "customer",
+    "addresses": [
+      {
+        "label": "Domicile",
+        "street": "16 rue de la République",
+        "city": "Strasbourg",
+        "postalCode": "67000",
+        "country": "FR",
+        "isDefaultShipping": true,
+        "isDefaultBilling": true
+      }
+    ],
+    "preferences": {
+      "newsletter": false,
+      "language": "fr",
+      "currency": "EUR"
+    },
+    "isActive": true,
+    "emailVerified": true,
+    "lastLoginAt": {
+      "$date": "2026-10-30T18:20:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-02-11T09:15:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-30T18:20:00.000Z"
+    }
+  }
+]

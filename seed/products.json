@@ -1,0 +1,731 @@
+[
+  {
+    "_id": {
+      "$oid": "665f1a2b3c02000000000001"
+    },
+    "sku": "TSH-BLK-001",
+    "name": "T-shirt coton bio noir",
+    "slug": "t-shirt-coton-bio-noir",
+    "description": "T-shirt unisexe 100 % coton biologique, coupe regular.",
+    "brand": "EcoWear",
+    "categories": [
+      "vetements",
+      "t-shirts"
+    ],
+    "tags": [
+      "bio",
+      "coton",
+      "unisexe"
+    ],
+    "price": {
+      "amount": 24.9,
+      "currency": "EUR",
+      "vatRate": 0.2
+    },
+    "compareAtPrice": 29.9,
+    "stock": {
+      "quantity": 120,
+      "reserved": 1,
+      "lowStockThreshold": 10
+    },
+    "variants": [
+      {
+        "sku": "TSH-BLK-S",
+        "label": "Taille S",
+        "size": "S",
+        "color": "Noir",
+        "stock": 30
+      },
+      {
+        "sku": "TSH-BLK-M",
+        "label": "Taille M",
+        "size": "M",
+        "color": "Noir",
+        "stock": 50
+      },
+      {
+        "sku": "TSH-BLK-L",
+        "label": "Taille L",
+        "size": "L",
+        "color": "Noir",
+        "stock": 40
+      }
+    ],
+    "attributes": {
+      "material": "Coton bio",
+      "weightGrams": 180,
+      "origin": "Portugal"
+    },
+    "images": [
+      {
+        "url": "https://cdn.example.com/p/t-shirt-coton-bio-noir-1.jpg",
+        "alt": "T-shirt coton bio noir - vue principale",
+        "position": 1
+      },
+      {
+        "url": "https://cdn.example.com/p/t-shirt-coton-bio-noir-2.jpg",
+        "alt": "T-shirt coton bio noir - détail",
+        "position": 2
+      }
+    ],
+    "rating": {
+      "average": 4.7,
+      "count": 29
+    },
+    "isPublished": true,
+    "createdAt": {
+      "$date": "2025-01-10T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-02T10:30:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665f1a2b3c02000000000002"
+    },
+    "sku": "JEA-SLM-001",
+    "name": "Jean slim brut indigo",
+    "slug": "jean-slim-brut-indigo",
+    "description": "Jean slim en denim brut stretch, taille mi-haute.",
+    "brand": "Denimia",
+    "categories": [
+      "vetements",
+      "jeans"
+    ],
+    "tags": [
+      "denim",
+      "slim"
+    ],
+    "price": {
+      "amount": 59.9,
+      "currency": "EUR",
+      "vatRate": 0.2
+    },
+    "compareAtPrice": null,
+    "stock": {
+      "quantity": 63,
+      "reserved": 2,
+      "lowStockThreshold": 10
+    },
+    "variants": [
+      {
+        "sku": "JEA-SLM-38",
+        "label": "Taille 38",
+        "size": "38",
+        "color": "Indigo",
+        "stock": 20
+      },
+      {
+        "sku": "JEA-SLM-40",
+        "label": "Taille 40",
+        "size": "40",
+        "color": "Indigo",
+        "stock": 25
+      },
+      {
+        "sku": "JEA-SLM-42",
+        "label": "Taille 42",
+        "size": "42",
+        "color": "Indigo",
+        "stock": 18
+      }
+    ],
+    "attributes": {
+      "material": "Coton/élasthanne",
+      "weightGrams": 650,
+      "origin": "Turquie"
+    },
+    "images": [
+      {
+        "url": "https://cdn.example.com/p/jean-slim-brut-indigo-1.jpg",
+        "alt": "Jean slim brut indigo - vue principale",
+        "position": 1
+      },
+      {
+        "url": "https://cdn.example.com/p/jean-slim-brut-indigo-2.jpg",
+        "alt": "Jean slim brut indigo - détail",
+        "position": 2
+      }
+    ],
+    "rating": {
+      "average": 4.4,
+      "count": 38
+    },
+    "isPublished": true,
+    "createdAt": {
+      "$date": "2025-01-11T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-03T10:30:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665f1a2b3c02000000000003"
+    },
+    "sku": "SNK-WHT-001",
+    "name": "Sneakers cuir blanc",
+    "slug": "sneakers-cuir-blanc",
+    "description": "Sneakers basses en cuir pleine fleur avec semelle gomme.",
+    "brand": "Stride",
+    "categories": [
+      "chaussures",
+      "sneakers"
+    ],
+    "tags": [
+      "cuir",
+      "urbain"
+    ],
+    "price": {
+      "amount": 89.9,
+      "currency": "EUR",
+      "vatRate": 0.2
+    },
+    "compareAtPrice": 109.9,
+    "stock": {
+      "quantity": 35,
+      "reserved": 3,
+      "lowStockThreshold": 10
+    },
+    "variants": [
+      {
+        "sku": "SNK-WHT-40",
+        "label": "Pointure 40",
+        "size": "40",
+        "color": "Blanc",
+        "stock": 12
+      },
+      {
+        "sku": "SNK-WHT-42",
+        "label": "Pointure 42",
+        "size": "42",
+        "color": "Blanc",
+        "stock": 15
+      },
+      {
+        "sku": "SNK-WHT-44",
+        "label": "Pointure 44",
+        "size": "44",
+        "color": "Blanc",
+        "stock": 8
+      }
+    ],
+    "attributes": {
+      "material": "Cuir",
+      "weightGrams": 900,
+      "origin": "Portugal"
+    },
+    "images": [
+      {
+        "url": "https://cdn.example.com/p/sneakers-cuir-blanc-1.jpg",
+        "alt": "Sneakers cuir blanc - vue principale",
+        "position": 1
+      },
+      {
+        "url": "https://cdn.example.com/p/sneakers-cuir-blanc-2.jpg",
+        "alt": "Sneakers cuir blanc - détail",
+        "position": 2
+      }
+    ],
+    "rating": {
+      "average": 4.1,
+      "count": 47
+    },
+    "isPublished": true,
+    "createdAt": {
+      "$date": "2025-01-12T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-04T10:30:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665f1a2b3c02000000000004"
+    },
+    "sku": "PUL-MER-001",
+    "name": "Pull col rond laine mérinos",
+    "slug": "pull-col-rond-laine-merinos",
+    "description": "Pull en laine mérinos extra-fine, chaud et respirant.",
+    "brand": "NordKnit",
+    "categories": [
+      "vetements",
+      "pulls"
+    ],
+    "tags": [
+      "laine",
+      "merinos"
+    ],
+    "price": {
+      "amount": 79,
+      "currency": "EUR",
+      "vatRate": 0.2
+    },
+    "compareAtPrice": null,
+    "stock": {
+      "quantity": 40,
+      "reserved": 0,
+      "lowStockThreshold": 10
+    },
+    "variants": [
+      {
+        "sku": "PUL-MER-M-GRY",
+        "label": "Gris - M",
+        "size": "M",
+        "color": "Gris",
+        "stock": 22
+      },
+      {
+        "sku": "PUL-MER-L-NVY",
+        "label": "Bleu marine - L",
+        "size": "L",
+        "color": "Bleu marine",
+        "stock": 18
+      }
+    ],
+    "attributes": {
+      "material": "Laine mérinos",
+      "weightGrams": 420,
+      "origin": "Italie"
+    },
+    "images": [
+      {
+        "url": "https://cdn.example.com/p/pull-col-rond-laine-merinos-1.jpg",
+        "alt": "Pull col rond laine mérinos - vue principale",
+        "position": 1
+      },
+      {
+        "url": "https://cdn.example.com/p/pull-col-rond-laine-merinos-2.jpg",
+        "alt": "Pull col rond laine mérinos - détail",
+        "position": 2
+      }
+    ],
+    "rating": {
+      "average": 4.8,
+      "count": 56
+    },
+    "isPublished": true,
+    "createdAt": {
+      "$date": "2025-01-13T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-05T10:30:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665f1a2b3c02000000000005"
+    },
+    "sku": "AUD-HDP-001",
+    "name": "Casque Bluetooth à réduction de bruit",
+    "slug": "casque-bluetooth-a-reduction-de-bruit",
+    "description": "Casque sans fil, réduction active du bruit, 30 h d'autonomie.",
+    "brand": "Soniq",
+    "categories": [
+      "high-tech",
+      "audio"
+    ],
+    "tags": [
+      "bluetooth",
+      "casque"
+    ],
+    "price": {
+      "amount": 129,
+      "currency": "EUR",
+      "vatRate": 0.2
+    },
+    "compareAtPrice": 149,
+    "stock": {
+      "quantity": 65,
+      "reserved": 1,
+      "lowStockThreshold": 10
+    },
+    "variants": [
+      {
+        "sku": "AUD-HDP-BLK",
+        "label": "Noir",
+        "color": "Noir",
+        "stock": 40
+      },
+      {
+        "sku": "AUD-HDP-SLV",
+        "label": "Argent",
+        "color": "Argent",
+        "stock": 25
+      }
+    ],
+    "attributes": {
+      "batteryHours": 30,
+      "weightGrams": 260,
+      "warrantyMonths": 24
+    },
+    "images": [
+      {
+        "url": "https://cdn.example.com/p/casque-bluetooth-a-reduction-de-bruit-1.jpg",
+        "alt": "Casque Bluetooth à réduction de bruit - vue principale",
+        "position": 1
+      },
+      {
+        "url": "https://cdn.example.com/p/casque-bluetooth-a-reduction-de-bruit-2.jpg",
+        "alt": "Casque Bluetooth à réduction de bruit - détail",
+        "position": 2
+      }
+    ],
+    "rating": {
+      "average": 4.5,
+      "count": 65
+    },
+    "isPublished": true,
+    "createdAt": {
+      "$date": "2025-01-14T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-06T10:30:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665f1a2b3c02000000000006"
+    },
+    "sku": "AUD-SPK-001",
+    "name": "Enceinte portable étanche",
+    "slug": "enceinte-portable-etanche",
+    "description": "Enceinte Bluetooth IPX7, 12 h d'autonomie.",
+    "brand": "Soniq",
+    "categories": [
+      "high-tech",
+      "audio"
+    ],
+    "tags": [
+      "bluetooth",
+      "enceinte",
+      "etanche"
+    ],
+    "price": {
+      "amount": 59.99,
+      "currency": "EUR",
+      "vatRate": 0.2
+    },
+    "compareAtPrice": null,
+    "stock": {
+      "quantity": 65,
+      "reserved": 2,
+      "lowStockThreshold": 10
+    },
+    "variants": [
+      {
+        "sku": "AUD-SPK-BLU",
+        "label": "Bleu",
+        "color": "Bleu",
+        "stock": 35
+      },
+      {
+        "sku": "AUD-SPK-RED",
+        "label": "Rouge",
+        "color": "Rouge",
+        "stock": 30
+      }
+    ],
+    "attributes": {
+      "batteryHours": 12,
+      "weightGrams": 540,
+      "warrantyMonths": 24
+    },
+    "images": [
+      {
+        "url": "https://cdn.example.com/p/enceinte-portable-etanche-1.jpg",
+        "alt": "Enceinte portable étanche - vue principale",
+        "position": 1
+      },
+      {
+        "url": "https://cdn.example.com/p/enceinte-portable-etanche-2.jpg",
+        "alt": "Enceinte portable étanche - détail",
+        "position": 2
+      }
+    ],
+    "rating": {
+      "average": 4.2,
+      "count": 74
+    },
+    "isPublished": true,
+    "createdAt": {
+      "$date": "2025-01-15T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-07T10:30:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665f1a2b3c02000000000007"
+    },
+    "sku": "BAG-URB-001",
+    "name": "Sac à dos urbain 20 L",
+    "slug": "sac-a-dos-urbain-20-l",
+    "description": "Sac à dos 20 L avec compartiment ordinateur 15 pouces.",
+    "brand": "Carry",
+    "categories": [
+      "accessoires",
+      "sacs"
+    ],
+    "tags": [
+      "sac",
+      "ordinateur"
+    ],
+    "price": {
+      "amount": 49.9,
+      "currency": "EUR",
+      "vatRate": 0.2
+    },
+    "compareAtPrice": null,
+    "stock": {
+      "quantity": 60,
+      "reserved": 3,
+      "lowStockThreshold": 10
+    },
+    "variants": [
+      {
+        "sku": "BAG-URB-BLK",
+        "label": "Noir",
+        "color": "Noir",
+        "stock": 60
+      }
+    ],
+    "attributes": {
+      "volumeLiters": 20,
+      "weightGrams": 700,
+      "origin": "Vietnam"
+    },
+    "images": [
+      {
+        "url": "https://cdn.example.com/p/sac-a-dos-urbain-20-l-1.jpg",
+        "alt": "Sac à dos urbain 20 L - vue principale",
+        "position": 1
+      },
+      {
+        "url": "https://cdn.example.com/p/sac-a-dos-urbain-20-l-2.jpg",
+        "alt": "Sac à dos urbain 20 L - détail",
+        "position": 2
+      }
+    ],
+    "rating": {
+      "average": 4.9,
+      "count": 83
+    },
+    "isPublished": true,
+    "createdAt": {
+      "$date": "2025-01-16T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-08T10:30:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665f1a2b3c02000000000008"
+    },
+    "sku": "BTL-ISO-001",
+    "name": "Bouteille isotherme inox 750 ml",
+    "slug": "bouteille-isotherme-inox-750-ml",
+    "description": "Bouteille inox double paroi, 24 h au froid et 12 h au chaud.",
+    "brand": "Hydro",
+    "categories": [
+      "maison",
+      "cuisine"
+    ],
+    "tags": [
+      "inox",
+      "isotherme"
+    ],
+    "price": {
+      "amount": 19.9,
+      "currency": "EUR",
+      "vatRate": 0.2
+    },
+    "compareAtPrice": null,
+    "stock": {
+      "quantity": 150,
+      "reserved": 0,
+      "lowStockThreshold": 10
+    },
+    "variants": [
+      {
+        "sku": "BTL-ISO-GRN",
+        "label": "Vert",
+        "color": "Vert",
+        "stock": 80
+      },
+      {
+        "sku": "BTL-ISO-WHT",
+        "label": "Blanc",
+        "color": "Blanc",
+        "stock": 70
+      }
+    ],
+    "attributes": {
+      "volumeMl": 750,
+      "weightGrams": 380,
+      "origin": "Chine"
+    },
+    "images": [
+      {
+        "url": "https://cdn.example.com/p/bouteille-isotherme-inox-750-ml-1.jpg",
+        "alt": "Bouteille isotherme inox 750 ml - vue principale",
+        "position": 1
+      },
+      {
+        "url": "https://cdn.example.com/p/bouteille-isotherme-inox-750-ml-2.jpg",
+        "alt": "Bouteille isotherme inox 750 ml - détail",
+        "position": 2
+      }
+    ],
+    "rating": {
+      "average": 4.6,
+      "count": 92
+    },
+    "isPublished": true,
+    "createdAt": {
+      "$date": "2025-01-17T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-09T10:30:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665f1a2b3c02000000000009"
+    },
+    "sku": "WTC-SMT-001",
+    "name": "Montre connectée sport GPS",
+    "slug": "montre-connectee-sport-gps",
+    "description": "Montre GPS avec suivi cardiaque et 7 jours d'autonomie.",
+    "brand": "Pulse",
+    "categories": [
+      "high-tech",
+      "montres"
+    ],
+    "tags": [
+      "gps",
+      "sport"
+    ],
+    "price": {
+      "amount": 199,
+      "currency": "EUR",
+      "vatRate": 0.2
+    },
+    "compareAtPrice": 229,
+    "stock": {
+      "quantity": 42,
+      "reserved": 1,
+      "lowStockThreshold": 10
+    },
+    "variants": [
+      {
+        "sku": "WTC-SMT-BLK",
+        "label": "Noir",
+        "color": "Noir",
+        "stock": 28
+      },
+      {
+        "sku": "WTC-SMT-GRN",
+        "label": "Vert",
+        "color": "Vert",
+        "stock": 14
+      }
+    ],
+    "attributes": {
+      "batteryDays": 7,
+      "weightGrams": 45,
+      "warrantyMonths": 24
+    },
+    "images": [
+      {
+        "url": "https://cdn.example.com/p/montre-connectee-sport-gps-1.jpg",
+        "alt": "Montre connectée sport GPS - vue principale",
+        "position": 1
+      },
+      {
+        "url": "https://cdn.example.com/p/montre-connectee-sport-gps-2.jpg",
+        "alt": "Montre connectée sport GPS - détail",
+        "position": 2
+      }
+    ],
+    "rating": {
+      "average": 4.3,
+      "count": 101
+    },
+    "isPublished": true,
+    "createdAt": {
+      "$date": "2025-01-18T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-01T10:30:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665f1a2b3c02000000000010"
+    },
+    "sku": "LMP-LED-001",
+    "name": "Lampe de bureau LED dimmable",
+    "slug": "lampe-de-bureau-led-dimmable",
+    "description": "Lampe LED articulée, 3 températures de couleur, port USB.",
+    "brand": "Lumia",
+    "categories": [
+      "maison",
+      "eclairage"
+    ],
+    "tags": [
+      "led",
+      "bureau"
+    ],
+    "price": {
+      "amount": 34.5,
+      "currency": "EUR",
+      "vatRate": 0.2
+    },
+    "compareAtPrice": null,
+    "stock": {
+      "quantity": 45,
+      "reserved": 2,
+      "lowStockThreshold": 10
+    },
+    "variants": [
+      {
+        "sku": "LMP-LED-WHT",
+        "label": "Blanc",
+        "color": "Blanc",
+        "stock": 45
+      }
+    ],
+    "attributes": {
+      "powerWatts": 10,
+      "weightGrams": 800,
+      "origin": "Chine"
+    },
+    "images": [
+      {
+        "url": "https://cdn.example.com/p/lampe-de-bureau-led-dimmable-1.jpg",
+        "alt": "Lampe de bureau LED dimmable - vue principale",
+        "position": 1
+      },
+      {
+        "url": "https://cdn.example.com/p/lampe-de-bureau-led-dimmable-2.jpg",
+        "alt": "Lampe de bureau LED dimmable - détail",
+        "position": 2
+      }
+    ],
+    "rating": {
+      "average": 4,
+      "count": 110
+    },
+    "isPublished": true,
+    "createdAt": {
+      "$date": "2025-01-19T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-02T10:30:00.000Z"
+    }
+  }
+]
